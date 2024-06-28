@@ -168,7 +168,9 @@ ul {
   justify-content: space-between;
   padding: 10px;
   height: 30px;
-  color: white;
+  color: #302833;
+  max-width:1400px;
+  background-color: white;
 }
 
 .sns {
@@ -177,7 +179,7 @@ ul {
 }
 
 .sns a {
-  color: white;
+  color: #302833;
 }
 
 .sns i {
