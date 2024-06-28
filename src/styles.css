@@ -108,63 +108,83 @@ main h3 {
   letter-spacing: 5px;
   color: #302833;
   opacity: 0.5;
-  margin:0;
+  margin: 0;
 }
 
 main h4 {
   font-weight: 700;
   font-size: 24px;
   line-height: 1;
-  color:#302833;
-  margin:0;
+  color: #302833;
+  margin: 0;
 }
 
 main h5 {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.5;
-  color:#302833;
-  margin:0;
+  color: #302833;
+  margin: 0;
 }
 
 .text-center {
-text-align: center;
+  text-align: center;
 }
 
 .dining {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr;
+         gap: 20px;
+         padding: 20px;
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   border-radius: 5px;
+
 }
 
 .card-body {
-  padding:30px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+    padding:30px;
 }
 
-.button{
+.card-heading {
+  height:35%;
+}
+
+      .address{
+height:15%;
+      }
+
+.good-to-know {
+height:35%;
+      }
+
+.button {
   display: block;
-  color:white;
+  color: white;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.5;
   text-align: center;
   letter-spacing: 3px;
   text-transform: uppercase;
-  padding:16px;
+  padding: 16px;
   border-radius: 3px;
   background-color: #302833;
   text-decoration: none;
-
 }
 
 .card-footer {
-  padding:20px 0 0  0;
-
+  padding: 20px ;
 }
 
 footer {
@@ -252,7 +272,7 @@ ul {
   }
 
   section {
-    padding:20px;
+    padding: 20px;
   }
   .container {
     padding: 30px 0;
